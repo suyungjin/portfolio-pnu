@@ -1,0 +1,503 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+a:link, a:visited{
+    text-decoration: none;
+    color: #333333;
+}
+body{
+    font-size: 1vw;
+    font-family: 'Noto Sans KR' sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#wrap{
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 11%;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+header #join{
+    flex: 0 1 30%;
+    font-size: 0.5em;
+    margin-top: 1.3%;
+}
+#join ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#join li{
+    padding-right: 5%;
+    text-align: center;
+}
+#join li:nth-of-type(3) p a{
+    color:#f68d1d;
+}
+header #logo{
+    flex: 0 1 30%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+}
+#logo img{
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+header #search{
+    flex: 0 1 30%;
+    position: relative;
+    display: flex;
+}
+header .srch{
+    width: 70%;
+    position: absolute;
+    top:50%;
+    right: 20%;
+    transform: translateY(-50%);
+    outline: 0;
+    border:0;
+    border-bottom: 1px solid gray;
+    z-index: 3;
+    transition: none;
+}
+#search .hamb{
+    display: none;
+    font-size:4em;
+    position: absolute;
+    z-index: 5;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+#search .zoom{
+    font-size:1.3em;
+    position: absolute;
+    z-index: 5;
+    top:50%;
+    right: 20%;
+    transform: translateY(-50%);
+}
+header #nav{
+    width:100%;
+    position: relative;
+    left: 0;
+    z-index: 100;
+}
+#nav #bar1{
+    width: 100vw;
+    height:150%;
+    background: #74707f;
+    position: absolute;
+    z-index: 5;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#nav ul{
+    width:70vw;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#nav li{
+    flex: 0 1 14%;
+    height:3vh;
+    text-align: center;
+    font-size: 0.8em;
+    position: relative;
+}
+#nav li a{
+    color: white;
+    line-height: 2.5rem;
+}
+#nav li:nth-of-type(2)::after{
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    top:50%;
+    left: 100%;
+    z-index: 3;
+}
+#nav li:nth-of-type(3)::after{
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    top:50%;
+    left: 100%;
+    z-index: 3;
+}
+#nav li:nth-of-type(4)::after{
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    top:50%;
+    left: 100%;
+    z-index: 3;
+}
+#nav li:nth-of-type(5)::after{
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    top:50%;
+    left: 100%;
+    z-index: 3;
+}
+#nav .close{
+    display: none;
+    font-size: 24px;
+    color: #222222;
+    position: absolute;
+    z-index: 20;
+    top:1rem;
+    left: 1rem;
+    cursor: pointer;
+}
+#nav li:hover a{
+    display: block;
+    background: #f68d1d;
+}
+aside{
+    width: 100%;
+    height: 20%;
+}
+aside ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+aside li{
+    flex: 0 1 33.3%;
+}
+aside dl{
+    width: 100%;
+    height: 100%;
+}
+aside dt{
+    width: 100%;
+    height: 90%;
+}
+aside li:nth-of-type(1) dt svg{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+aside li:nth-of-type(1) dt svg .st0{
+    fill:none;stroke:#004385;
+    stroke-width:15.8028;
+    stroke-miterlimit:10;
+}
+aside li:nth-of-type(1) dt svg .st1{
+    fill:#004385;
+    stroke:#004385;
+    stroke-width:7.7983;
+    stroke-miterlimit:10;
+}
+aside li:nth-of-type(2) dt svg{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+aside li:nth-of-type(2) dt svg .st0{
+    fill:none;
+    stroke:#004385;
+    stroke-width:17.7939;
+    stroke-miterlimit:10;
+}
+aside li:nth-of-type(2) dt svg .st1{
+    fill:none;
+    stroke:#004385;
+    stroke-width:17.1329;
+    stroke-miterlimit:10;
+}
+aside li:nth-of-type(2) dt svg .st2{
+    fill:none;
+    stroke:#004385;
+    stroke-width:19.9067;
+    stroke-miterlimit:10;
+}
+aside li:nth-of-type(3) dt svg{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+aside li:nth-of-type(3) dt .st0{
+    fill:none;
+    stroke:#004385;
+    stroke-width:16.0427;
+    stroke-miterlimit:10;
+}
+aside dd{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 0.5rem;
+}
+footer{
+    width: 100%;
+    height: 20%;
+    margin-top: 3%;
+    color: #333333;
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer li:nth-of-type(1){
+    flex: 0 1 100%;
+    height:20%;
+    position: relative;
+}
+footer li:nth-of-type(1) #bar2{
+    width: 100vw;
+    height: 100%;
+    background: #414141;
+    position: absolute;
+    z-index: 2;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#bar2 dl{
+    width: 70vw;
+    display: flex;
+    margin: auto;
+    font-size: 16px;
+}
+#bar2 dt a{
+    font: normal 0.7em/2.7em 'Noto Sans KR';
+    color: white;
+    text-align: center;
+}
+#bar2 dd a{
+    font: normal 0.7em/2.7em 'Noto Sans KR';
+    color: white;
+    text-align: center;
+    padding-left: 1em;
+}
+footer ul li:nth-of-type(2){
+    flex: 0 1 15%;
+    font-size: 1em;
+}
+footer ul li:nth-of-type(2) img{
+    width: 100%;
+}
+footer ul li:nth-of-type(3){
+    flex: 0 1 75%;
+    font-size: 16px;
+}
+footer ul li:nth-of-type(3) dl{
+    width: 100%;
+}
+footer ul li:nth-of-type(3) dt{
+    display: flex;
+}
+footer ul li:nth-of-type(3) dd{
+    display: flex;
+}
+
+@media screen and (max-width: 1200px){
+#join{
+    display: none;
+}
+header{
+    height: 5rem;
+}
+header #logo{
+    margin: 0;
+    height: 5rem;
+}
+#logo a img{
+    left: 0;
+    transform: translateX(0);
+    height: 5rem;
+}
+header #search{
+    height: 5em;
+    margin-left: 40%;
+}
+header #nav{
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 100;
+    top:0;
+    left: 100%;
+}
+header #nav #bar1{
+    width: 100%;
+    top:0;
+    left:0;
+    transform: translateY(0%);
+    background: white;
+}
+#nav ul{
+    height: 40%;
+    width: 70%;
+    margin-top: 30%;
+    position: relative;
+}
+#nav .close{
+    display: block;
+    transition: all 0.5s;
+    transform: rotate(0deg);
+}
+#nav .close:hover{
+    transform: rotate(180deg);
+}
+#nav li{
+    flex: 1 1 100%;
+    font-size: 12px;
+    height: 3em;
+    text-align: left;
+}
+#nav li a{
+    line-height: 3.5rem;
+    color: #222222;
+}
+#nav li:hover a{
+    display: block;
+    background: #f68d1d;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    opacity: 1;
+}
+#search .srch{
+    display:none;
+    position: absolute;
+    z-index: 10;
+    top:6rem;
+    right: 0%;
+    width: 120%;
+}
+#search .srch.active{
+    display: block;
+}
+#search .zoom{
+    font-size: 3rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    transform: translateY(0%);
+    right: 3rem;
+    top:1rem;
+    z-index: 0;
+}
+#search .hamb{
+    display: block;
+    cursor: pointer;
+    font-size: 3rem;
+    transform: translateY(0%);
+    top:1rem;
+    z-index: 0;
+}
+#nav li:nth-of-type(2)::after,
+#nav li:nth-of-type(3)::after,
+#nav li:nth-of-type(4)::after,
+#nav li:nth-of-type(5)::after{
+    display: none;
+}
+#nav li:nth-of-type(7) a span{
+    display: none;
+}
+aside{
+    height: 15em;
+    margin-top: 2rem;
+}
+aside dd{
+    font-size: 16px;
+}
+footer ul{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+footer ul li:nth-of-type(1){
+    display: none;
+}
+footer #bar2{
+    display: none;
+}
+footer ul li:nth-of-type(2){
+    text-align: center;
+    margin-left: 0;
+}
+footer ul li:nth-of-type(2) img{
+    height: 5rem;
+    width: 30%;
+}
+footer ul li:nth-of-type(3){
+    font-size: 12px;
+}
+footer ul li:nth-of-type(3) dl span{
+    display: none;
+}
+footer ul li:nth-of-type(3) dt{
+    display: none;
+}
+footer ul li:nth-of-type(3) dd:nth-of-type(1){
+    flex-direction: column;
+}
+footer ul li:nth-of-type(3) dd:nth-of-type(1) p {
+    margin: auto;
+}
+footer ul li:nth-of-type(3) dd:nth-of-type(2){
+    display: none;
+}
+footer ul li:nth-of-type(3) dd:nth-of-type(3) p{
+    margin: auto;
+}
+}
+
+@media screen and (max-width: 500px){
+    header{
+        height: 3rem;
+    }
+    header #logo a img{
+        height: 3rem;
+    }
+    #search .zoom{
+        font-size: 2rem;
+        right: 2rem;
+    }
+    #search .srch{
+        top:4rem;
+    }
+#search .hamb{
+    font-size: 2rem;
+}
+    #wrap{
+        width: 90vw;
+    }
+    #search .zoom{
+        transform: translateY(0%);
+    }
+    #search .hamb{
+        transform: translateY(0%)
+    }
+    }
