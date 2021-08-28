@@ -225,7 +225,7 @@ main p.txt{
 #banner{
     width: 100%;
     height: 15%;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-bottom: 5%;
 }
 #banner ul{
@@ -359,7 +359,7 @@ section #btn0{
     border:0;
     transform: translateX(-50%);
     margin-left: 50%;
-    margin-top: 2em;
+    margin-top: 1em;
     cursor: pointer;
 }
 section #btn0 p{
@@ -810,6 +810,7 @@ article #btn3{
     #banner{
         height: 15em;
         margin-bottom: 10%;
+        margin-top: 6%;
     }
     #banner dl{
         height: 7em;
