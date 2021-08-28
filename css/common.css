@@ -294,12 +294,12 @@ footer li:nth-of-type(1) #bar2{
     font-size: 16px;
 }
 #bar2 dt a{
-    font: normal 0.7em/2.7em 'Noto Sans KR';
+    font: normal 0.7em/3.3em 'Noto Sans KR';
     color: white;
     text-align: center;
 }
 #bar2 dd a{
-    font: normal 0.7em/2.7em 'Noto Sans KR';
+    font: normal 0.7em/3.3em 'Noto Sans KR';
     color: white;
     text-align: center;
     padding-left: 1em;
