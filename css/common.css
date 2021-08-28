@@ -288,6 +288,7 @@ footer li:nth-of-type(1) #bar2{
 }
 #bar2 dl{
     width: 70vw;
+    height: 100%;
     display: flex;
     margin: auto;
     font-size: 16px;
