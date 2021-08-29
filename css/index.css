@@ -550,6 +550,7 @@ article .review{
     transform: translateX(-50%);
     margin-left: 50%;
     margin-top:5rem;
+    margin-bottom: 1%;
     position: relative;
 }
 article .review ul{
