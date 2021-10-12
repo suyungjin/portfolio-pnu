@@ -96,7 +96,7 @@ header #nav{
 }
 #nav #bar1{
     width: 100vw;
-    height:150%;
+    height: 40px;
     background: #74707f;
     position: absolute;
     z-index: 5;
