@@ -166,11 +166,6 @@ header #nav{
 #nav .callnum{
     display: none;
 }
-#nav .callnum img{
-    width: 70%;
-    margin-top: 20%;
-    margin-left: 5%;
-}
 #nav .close{
     display: none;
     font-size: 24px;
@@ -361,6 +356,7 @@ header #nav{
     z-index: 100;
     top:0;
     left: 100%;
+    background: white;
 }
 header #nav #bar1{
     width: 100%;
@@ -385,7 +381,7 @@ header #nav #bar1{
 }
 #nav li{
     flex: 1 1 100%;
-    font-size: 12px;
+    font-size: 24px;
     height: 3em;
     text-align: left;
 }
@@ -436,6 +432,14 @@ header #nav #bar1{
 }
 #nav li:nth-of-type(7) a span{
     display: none;
+}
+#nav .callnum{
+    display: block;
+}
+#nav .callnum img{
+    width: 70%;
+    margin-left: 7%;
+    margin-top: 80%;
 }
 aside{
     height: 15em;
@@ -511,7 +515,16 @@ footer ul li:nth-of-type(3) dd:nth-of-type(3) p{
     #search .hamb{
         transform: translateY(0%)
     }
-    #nav .callnum{
-        display: block;
+    #nav .callnum img{
+        width: 70%;
+        margin-left: 7%;
+        margin-top: 200%;
+    }
+    #nav #bar1 li{
+        font-size: 12px;
+        height: 5em;
+    }
+    #nav #bar1 li:hover a{
+        padding: 0.02rem;
     }
     }
