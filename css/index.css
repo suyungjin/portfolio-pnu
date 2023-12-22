@@ -871,42 +871,42 @@ article #btn3{
     #banner{
         height: 20em;
     }
-section{
-    height: 200em;
-}
-section dd p{
-    line-height: 3em;
-    font-size: 3em;
-}
-article{
-    height: 400em;
-}
-#banner #btncontrol{
-    bottom: 10%;
-}
-#gallery{
-    top:4%;
-}
-article h2{
-    height: 3%;
-    margin-top: 25%;
-}
-article .review{
-    overflow:visible;
-    height: 98%
-;}
-article .review ul{
-    flex-direction: column;
-    width: 100%;
-    height: 97%;
-}
-article h2{
-    font-size: 1.5rem;
-}
-#btn2, #btn3{
-    display: none;
-}
-#gallery li{
-    font-size: 12px;
-}
-}
+    section{
+        height: 200em;
+    }
+    section dd p{
+        line-height: 3em;
+        font-size: 3em;
+    }
+    article{
+        height: 400em;
+    }
+    #banner #btncontrol{
+        bottom: 10%;
+    }
+    #gallery{
+        top:4%;
+    }
+    article h2{
+        height: 3%;
+        margin-top: 25%;
+    }
+    article .review{
+        overflow:visible;
+        height: 98%
+    ;}
+    article .review ul{
+        flex-direction: column;
+        width: 100%;
+        height: 97%;
+    }
+    article h2{
+        font-size: 1.5rem;
+    }
+    #btn2, #btn3{
+        display: none;
+    }
+    #gallery li{
+        font-size: 12px;
+    }
+    }
