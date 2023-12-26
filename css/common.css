@@ -172,8 +172,8 @@ header #nav{
     color: #222222;
     position: absolute;
     z-index: 20;
-    top:1rem;
-    left: 1rem;
+    top:12px;
+    left: 0;
     cursor: pointer;
 }
 #nav li:hover a{
@@ -368,7 +368,7 @@ header #nav #bar1{
 #nav ul{
     height: 40%;
     width: 95%;
-    margin-top: 30%;
+    margin-top: 10%;
     position: relative;
 }
 #nav .close{
@@ -391,7 +391,7 @@ header #nav #bar1{
 }
 #nav li:hover a{
     display: block;
-    background: #f68d1d;
+    background: none;
     border-radius: 1rem;
     padding: 0.5rem;
     opacity: 1;
@@ -437,7 +437,7 @@ header #nav #bar1{
     display: block;
 }
 #nav .callnum img{
-    width: 70%;
+    width: 30%;
     margin-left: 7%;
     margin-top: 120%;
 }
@@ -488,6 +488,12 @@ footer ul li:nth-of-type(3) dd:nth-of-type(3) p{
     margin: auto;
 }
 }
+@media screen and (max-height: 450px){
+    #nav #bar1 li{
+        font-size: 16px;
+        height: 3em;
+    }
+}
 
 @media screen and (max-width: 500px){
     header{
@@ -503,9 +509,9 @@ footer ul li:nth-of-type(3) dd:nth-of-type(3) p{
     #search .srch{
         top:4rem;
     }
-#search .hamb{
-    font-size: 2rem;
-}
+    #search .hamb{
+        font-size: 2rem;
+    }
     #wrap{
         width: 90vw;
     }
@@ -516,7 +522,6 @@ footer ul li:nth-of-type(3) dd:nth-of-type(3) p{
         transform: translateY(0%)
     }
     #nav .callnum img{
-        width: 70%;
         margin-left: 7%;
         margin-top: 210%;
     }
