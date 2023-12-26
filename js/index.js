@@ -13,7 +13,7 @@ $(window).resize(function(){
 // 메뉴 버튼
 $('header .hamb').click(function(){
     $('header #nav').show();
-    $('header #nav').css({'left':'50%','transition':'none'})
+    $('header #nav').css({'left':'70%','transition':'none'})
 });
 $('header #nav .close').click(function(){
     $('header #nav').hide();
